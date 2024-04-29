@@ -1,0 +1,392 @@
+body {
+    justify-content: center;
+    height: 235vh;
+}
+
+.cv {
+    display: flex;
+    flex-direction: row;
+    margin: 10vh 20vh 0 20vh;
+}
+
+.sec1 {
+    background-color: rgb(240, 234, 234);
+    border-radius: 20px;
+    height: auto;
+    width: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec_div {
+    position: relative;
+    border-radius: 20px;
+    height: 50vh;
+    width: 50vh;
+}
+
+.sec_div2 {
+    text-align: center;
+}
+
+#triangle {
+    border-top: 350px solid rgb(19, 138, 249);
+    border-right: 365px solid transparent;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+}
+
+#uzair {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    margin: 6vh 0 0 5vh;
+}
+
+#about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-left: 7vh;
+}
+
+#line {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutme {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 85%;
+    height: 1px;
+    position: absolute;
+}
+
+#hr {
+    border: 1px solid rgb(4, 105, 255);
+    background-color: rgb(4, 105, 255);
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    z-index: 2;
+}
+
+p {
+    text-align: justify;
+    margin: 0 4vh;
+}
+
+.sec2 {
+    height: auto;
+    width: 70%;
+    margin: 0 6vh 0 6vh;
+    background-color: rgb(240, 234, 234);
+    border-radius: 20px;
+    padding: 2vh 0 0 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+    color: rgb(1, 141, 255);
+}
+
+#line2 {
+    position: relative;
+    display: flex;
+}
+
+.divide {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.sec2_div {
+    width: 30%;
+    text-align: right;
+}
+
+h4 {
+    margin-top: -2vh;
+    text-align: right;
+}
+
+.sec2_div2 {
+    width: 60%;
+    margin-left: 2vh;
+    padding-left: 5vh;
+}
+
+#experience {
+    text-align: justify;
+    font-size: 2vh;
+    margin: -2vh 0 0 0;
+}
+
+#graphics {
+    color: black;
+}
+
+#webdevelopment {
+    margin-top: 9.5vh;
+    color: black;
+}
+
+#cyber {
+    margin-top: 7vh;
+    color: black;
+}
+
+#black {
+    color: black;
+}
+
+.divide2 {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.sec2_div3 {
+    width: 30%;
+    text-align: right;
+}
+
+.sec2_div4 {
+    width: 60%;
+    margin-left: 2vh;
+    padding-left: 5vh;
+}
+
+#sec2_logitech {
+    text-align: justify;
+    font-size: 2vh;
+    margin: -2vh 0 0 0;
+}
+
+#education {
+    text-align: justify;
+    font-size: 2vh;
+    margin: -2vh 0 0 0;
+}
+
+#college {
+    margin-top: 7.5vh;
+    color: black;
+}
+
+#university {
+    margin-top: 7.5vh;
+    color: black;
+}
+
+.sec_div3 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.skills {
+    width: 50%;
+}
+
+#skill {
+    font-size: large;
+    color: rgb(1, 141, 255);
+    padding-bottom: 1vh;
+}
+
+#skill_name {
+    padding-bottom: 1vh;
+}
+
+.skill_meter {
+    width: 50%;
+    padding-top: 3.7vh;
+}
+
+.hr {
+    padding-bottom: 1vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#meter1 {
+    border: 2px solid rgb(186, 184, 184);
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+    width: 80%;
+}
+
+#meter2 {
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+}
+
+.sec_div4 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.software {
+    width: 50%;
+}
+
+#software1 {
+    font-size: large;
+    color: rgb(1, 141, 255);
+    padding-bottom: 1vh;
+}
+
+#language {
+    font-size: large;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.sec_div5 {
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#location {
+    margin: 3vh 0 0 9vh;
+    position: absolute;
+}
+
+#location1 {
+    margin: 3vh 0 0 19vh;
+    position: absolute;
+}
+
+#download {
+    margin: 2vh 0 0 3vh;
+    height: auto;
+    width: 5vh;
+    float: left;
+}
+
+#phone {
+    margin: 2vh 0 0 3vh;
+    height: auto;
+    width: 5vh;
+    float: left;
+}
+
+#num {
+    margin: 10vh 0 0 9vh;
+    position: absolute;
+}
+
+#num1 {
+    margin: 10vh 0 0 20vh;
+    position: absolute;
+}
+
+#email {
+    margin: 2vh 0 0 3vh;
+    height: auto;
+    width: 5vh;
+    float: left;
+}
+
+#mail {
+    margin: 17vh 0 0 9vh;
+    position: absolute;
+}
+
+#mail1 {
+    margin: 17vh 0 0 20vh;
+    position: absolute;
+}
+
+.sec_div6 {
+    text-align: center;
+}
+
+#ref_name {
+    font-size: larger;
+    margin: 2vh 0 0 4vh;
+}
+
+#other {
+    font-size: large;
+    margin-top: 5vh;
+}
+
+.divide3 {
+    margin: 3vh 7vh 0 0;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 0 2vh;
+}
+
+.hobby_row1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.hobby_row2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#football {
+    height: auto;
+    width: 20%;
+}
+
+#gaming {
+    height: auto;
+    width: 20%;
+}
+
+#photography {
+    height: auto;
+    width: 20%;
+}
+
+#golf {
+    height: auto;
+    width: 20%;
+}
+
+#table_tennis {
+    height: auto;
+    width: 20%;
+}
+
+#travel {
+    height: auto;
+    width: 20%;
+}
